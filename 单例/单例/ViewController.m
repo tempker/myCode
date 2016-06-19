@@ -23,7 +23,7 @@
     WYYWorkTool *t1 = [WYYWorkTool shareWorkTool];
     WYYWorkTool *t2 = [WYYWorkTool shareWorkTool];
     WYYWorkTool *t3 = [[WYYWorkTool alloc]init];
-    
+    WYYWorkTool *tt = [[WYYWorkTool alloc]init];
     NSLog(@"t1的地址是:%p",t1);
     NSLog(@"t2的地址是:%p",t2);
     NSLog(@"t3的地址是:%p",t3);
